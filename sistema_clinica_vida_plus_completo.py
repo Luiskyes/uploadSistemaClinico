@@ -1,6 +1,25 @@
-# sistema_clinica_vida_simplificado.py
-# Sistema de Gestão de Pacientes - Clínica Vida+
-# Versão Completa: Passo 2 + Passo 3 + Passo 4 + GUI CORRIGIDA
+# ════════════════════════════════════════════════════════════════════════════════
+# UNIVERSIDADE ANHANGUERA - FACULDADE DE TECNOLOGIA
+# Curso: Análise e Desenvolvimento de Sistemas (ADS)
+#
+# PROJETO INTEGRADO: CLÍNICA VIDA+
+# Sistema de Gestão de Pacientes - Versão 1.0.0
+#
+# Autor: Luís Rogério C. de Melo 
+# Data: 03 de dezembro de 2025
+#
+# Status: ✅ COMPLETO E FUNCIONAL
+# ════════════════════════════════════════════════════════════════════════════════
+
+"""
+Clínica Vida+ - Sistema Integrado de Gestão de Pacientes
+
+Sistema desktop para otimizar a gestão administrativa de clínicas médicas,
+integrando cadastro de pacientes, controle de acesso booleano, fila FIFO
+e persistência de dados em JSON.
+
+Tecnologias: Python 3.10+, tkinter, JSON, POO
+"""
 
 from config_dados.config import USUARIOS, ARQUIVO_BACKUP
 from config_dados.utils import (
